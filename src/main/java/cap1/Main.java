@@ -12,6 +12,8 @@ public class Main {
         sb.append(s);
         sb.append(i);
 
+        sb.setCharAt(8, 'x');
+
         System.out.println(ian.equals(alfredo));
         System.out.println(ian.lastIndexOf('u'));
         System.out.println(alfredo.indexOf("es"));
